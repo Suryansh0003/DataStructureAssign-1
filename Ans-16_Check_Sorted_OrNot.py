@@ -1,10 +1,10 @@
 def sortedL(list):
     if list == sorted(list):
-        print("the list is sorted in acceding order ")
+        return "the list is sorted in acceding order "
     elif list == sorted(list, reverse=True):
-        print("the list is sorted in decending order ")
+        return "the list is sorted in decending order "
     else:
-        return print("the list is not sorted ")
+        return "The list is not sorted"
 
 
 MyList = [6, 5, 4, 3, 1]
